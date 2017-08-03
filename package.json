@@ -1,0 +1,20 @@
+{
+  "name": "toilet_webhook",
+  "version": "1.0.0",
+  "description": "Webhook service for toilet in office",
+  "main": "app.js",
+  "scripts": {
+    "test": "hook"
+  },
+  "keywords": [
+    "webhook",
+    "apiai",
+    "agent"
+  ],
+  "author": "Tolanuch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}

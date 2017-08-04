@@ -11,7 +11,7 @@ restService.use(bodyParser.json());
 
 restService.post('/webhook', function(req,res) {
 	try {		
-		var speech = 'Please,  type \'o\' or \'v\' if you would like to occupy or vacant';
+		var speech = 'Please,  type \'o\' or \'v\' if you would like to change status';
 		var status;
 		fs.readFile('status.json', function(err,data) {
 					if(err) {

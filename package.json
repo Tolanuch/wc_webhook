@@ -4,8 +4,8 @@
   "description": "Webhook service for toilet in office",
   "main": "app.js",
   "scripts": {
-    "test": "hook"
-  },
+  "start": "node app.js"
+},
   "keywords": [
     "webhook",
     "apiai",
